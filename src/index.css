@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  padding: 2px 5px;
+  border: none;
+  font-size: 15px;
+  background-color: rgb(149, 149, 164);
+  border-radius: 2px;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: rgba(149, 149, 164,0.7);
+}
+
+.app {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+
+}
+.list__item {
+  display: flex;
+  justify-content: space-between;
+}
+.app__crud {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 15px;
+}
+.crud__searchbar {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.crud__searchbar-input {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.crud__searchbar-input input {
+  padding: 4px;
+  outline: none;
+}
+.crud__searchbar-buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+.btn-u {
+  margin: 5px;
+}
